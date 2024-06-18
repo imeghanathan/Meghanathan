@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms Lab</title>
+</head>
+<body>
+	<fieldset>
+		<form>
+		<h1 align="center"> FORMS</h1>
+		<label> <hr> </label>
+		<label for="Name"> Name</label>
+		<input type="text" name="Name" maxlength="25" size="50" placeholder="Enter your Name" required><br><br>
+		<label for="email">Email</label>
+		<input type="email" name="email" placeholder="test@example" autofocus required><br><br>
+		<label for="Pass">Password</label>
+		<input type="password" name="password" minlength="6" placeholder="Password" required><br><br>
+		<label for="Category">Category</label>
+		<select id="Category" name="Category" required>
+			<option>Student</option>
+			<option>Employee</option>
+			<option selected>Freelancer</option>
+		</select><br><br>
+		<label for="Date">Event Date</label>
+		<input type="date" name="Event Datte" required><br><br>
+		<label for="tickets">No:of Tickets</label><br>
+		<input type="radio" name="Tickets">1 Ticket<br>
+		<input type="radio" name="Tickets" checked>2 Tickets<br>
+		<input type="radio" name="Tickets">3 Tickets<br><br>
+		<label>Mode of Payment :</label>
+		<input type="checkbox" name="Online Payments" required>Online Payment<br><br>
+		<label>Notes</label><br><br>
+		<textarea cols="50" rows="5" placeholder="Type notes"></textarea>
+		<input type="Submit" name="Submit" required>
+	</form>
+	
+		
+	</fieldset>
+		
+	
+</body>
+</html>
